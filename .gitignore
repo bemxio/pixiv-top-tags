@@ -1,0 +1,31 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.venv/
+venv.bak/
+
+env/
+.env/
+env.bak/
+
+# Environment files
+.env
+.venv
+
+# JetBrains (PyCharm, IntelliJ IDEA, etc.)
+.idea/
+
+# Visual Studio Code
+.vscode/
+
+# Selenium drivers
+chromedriver
+geckodriver
+msedgedriver
+
+# Log files
+*.log
