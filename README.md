@@ -24,6 +24,8 @@ where:
 
 The script will create a `count.json` file, which contains all tags counted in the illustrations, sorted descendingly.
 
+**Note:** The script currently excludes adult content tags ("R-18" and "R-18G") from the results.
+
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
