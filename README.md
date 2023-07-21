@@ -1,5 +1,5 @@
 # pixiv-top-tags
-A Python script that counts the top tags in all illustrations of a Pixiv user. Uses the [`pixivpy3`](https://github.com/upbit/pixivpy) library to interact with the Pixiv API.
+A Python script that counts the top tags in all bookmarked illustrations of a Pixiv user. Uses the [`pixivpy3`](https://github.com/upbit/pixivpy) library to interact with the Pixiv API.
 
 ## Installation
 ### Prerequisites
