@@ -1,4 +1,4 @@
 pixivpy3==3.7.2
-matplotlib==3.7.2
+#matplotlib==3.7.2
 selenium==4.10.0
 requests==2.31.0
