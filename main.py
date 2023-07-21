@@ -14,6 +14,8 @@ def get_max_bookmark_id(result: dict) -> Optional[int]:
 
     return value
 
+MOST_COMMON_TAGS = ["R-18", "R-18G", "original"]
+
 with open("credentials.json", "r", encoding="utf-8") as file:
     credentials = json.load(file)
 
@@ -43,8 +45,9 @@ while True:
     if max_bookmark_id is None:
         break
 
-count.pop("R-18")
-count.pop("R-18G")
+for tag in MOST_COMMON_TAGS:
+    if tag in count:
+        count.pop(tag)
 
 count = dict(sorted(count.items(), key=lambda tag: tag[1], reverse=True))
 
