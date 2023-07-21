@@ -16,6 +16,9 @@ env.bak/
 .env
 .venv
 
+# JSON files
+*.json
+
 # JetBrains (PyCharm, IntelliJ IDEA, etc.)
 .idea/
 
