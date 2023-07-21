@@ -19,6 +19,11 @@ env.bak/
 # JSON files
 *.json
 
+# Image files
+*.jpg
+*.png
+*.webp
+
 # JetBrains (PyCharm, IntelliJ IDEA, etc.)
 .idea/
 
